@@ -1,36 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  
+<html lang="zh-CN">
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>只言片语导航 &nbsp;- 不懂就搜，一搜就懂</title>
-    <meta name="keywords" content="只言片语导航,不懂就搜,实用网址,主页导航,简单网址导航">
-    <meta name="description" content="只言片语，可寻万物！"/>
+    <title>光溯星河 &nbsp;- 个人网址导航</title>
+    <meta name="keywords" content="个人网址导航">
+    <meta name="description" content="博学笃志，切问近思"/>
     <link rel="shortcut icon" href="static/img/favicon.ico">
     <link href="static/css/style.css" rel="stylesheet" type="text/css">
-    <!-- 百度统计代码 -->
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?786a6208323fbecfb41d71bfda8daca6";
-          var s = document.getElementsByTagName("script")[0]; 
-          s.parentNode.insertBefore(hm, s);
-        })();
-      </script>
-</head>
+    <!-- <script>
+      window.onload = function() {
+        fetch('https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&nc=时间戳&pid=hp')
+          .then(response => response.json())
+          .then(data => {
+            let imageUrl = `https://www.bing.com${data.images[0].url}`;
+            document.body.style.backgroundImage = `url(${imageUrl})`;
+          });
+      };
+    </script> -->
+    <style>
+      body {
+        background-image: url(static/img/blue.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+          }
+    </style>
+  </head>  
 <body>
 <div class="inner-center main">
   <div class="content-inside">
     <!-- slogan start -->
-    <div class="logo-box">
+    <!-- <div class="logo-box">
       <div class="logo-left">
-        <img src="./static/img/logo.gif" alt="logo">
-      </div>
+        <img src="./static/img/web.png" alt="logo"> -->
+      <!-- </div> --> 
       <div class="logo-right">
-        <span>只言片语，可寻万物</span>
+        <span>博学笃志，切问近思</span>
       </div>
-    </div>
+      <br>
+      <br>
+    <!-- </div> -->
     <!-- slogan end -->
     
     <!-- 搜索框 start -->
@@ -44,7 +53,7 @@
                 maxlength="100"
                 autocomplete="off"
                 type="text"
-                placeholder="不懂么？不懂就搜，给老子搜！">
+                placeholder="网页搜索">
           <div class="clear-keyword" id="clear_keyword" title="清空">x</div>
         </div>
         <!--  搜索引擎 start  -->
@@ -63,99 +72,96 @@
         </ul>
         <!--  搜索结果 end -->
       </div>
-      <input class="search-submit" value="寻一下" id="search_submit" type="submit">
+      <input class="search-submit" value="搜索" id="search_submit" type="submit">
     </div>
     <!-- 搜索框 end -->
     
     <!-- 导航地址 start -->
     <div class="nav-content">
       <div class="jj-list">
-        <div class="jj-list-tit">麦 · Mai</div>
+        <div class="jj-list-tit">个人导航</div>
         <ul class="jj-list-con">
-          <li><a href="https://www.google.com/" class="jj-list-link" target="_blank">Google</a></li>
-          <li><a href="https://www.baidu.com/" class="jj-list-link" target="_blank">百度</a></li>
-          <li><a href="https://cn.bing.com/" class="jj-list-link" target="_blank">Bing</a></li>
-          <li><a href="https://www.sogou.com/" class="jj-list-link" target="_blank">搜狗搜索</a></li>
-          <li><a href="https://www.so.com/" class="jj-list-link" target="_blank">360搜索</a></li>
-          <li><a href="https://www.toutiao.com/search/?keyword=/" class="jj-list-link" target="_blank">头条搜索</a></li>
-          <li><a href="https://translate.google.cn/" class="jj-list-link" target="_blank">谷歌翻译</a></li>
-          <li><a href="https://fanyi.baidu.com/" class="jj-list-link" target="_blank">百度翻译</a></li>
-          <li><a href="http://fanyi.youdao.com/" class="jj-list-link" target="_blank">有道翻译</a></li>
+          <li><a href="https://blog.timestarry.asia/" class="jj-list-link" target="_blank">个人博客</a></li>
+          <li><a href="https://alist.timestarry.asia/" class="jj-list-link" target="_blank">AList</a></li>
+          <li><a href="https://nav.timestarry.asia/" class="jj-list-link" target="_blank">导航</a></li>
+          <li><a href="https://github.com/timestarry/" class="jj-list-link" target="_blank"><img src="./static/css/img/github.png" alt="" height="20" width="20"></a></li>
+          <li><a href="https://" class="jj-list-link" target="_blank">☁</a></li>
+          <li><a href="https://" class="jj-list-link" target="_blank">☁</a></li>
+          <li><a href="https://" class="jj-list-link" target="_blank">☁</a></li>
+          <li><a href="https://" class="jj-list-link" target="_blank">☁</a></li>
+          <li><a href="https://" class="jj-list-link" target="_blank">☁</a></li>
         </ul>
       </div>
       <div class="jj-list">
-        <div class="jj-list-tit">胖 · Pang</div>
+        <div class="jj-list-tit">高效学习</div>
         <ul class="jj-list-con">
-          <li><a href="https://www.zhihu.com/" class="jj-list-link" target="_blank">知乎</a></li>
-          <li><a href="https://web.okjike.com/feed/" class="jj-list-link" target="_blank">即刻</a></li>
-          <li><a href="https://www.v2ex.com/" class="jj-list-link" target="_blank">V2EX</a></li>
-          <li><a href="https://weibo.com/" class="jj-list-link" target="_blank">微博</a></li>
-          <li><a href="https://www.jianshu.com/" class="jj-list-link" target="_blank">简书</a></li>
-          <li><a href="https://www.douban.com/" class="jj-list-link" target="_blank">豆瓣</a></li>
-          <li><a href="http://www.woshipm.com/" class="jj-list-link" target="_blank">产品经理</a></li>
-          <li><a href="http://www.chanpin100.com/" class="jj-list-link" target="_blank">产品壹佰</a></li>
-          <li><a href="http://pm.budong.me/" class="jj-list-link" target="_blank">只言片语</a></li>
+          <li><a href="https://zhenti.burningvocabulary.com/" class="jj-list-link" target="_blank">英语真题</a></li>
+          <li><a href="https://chat.openai.com/" class="jj-list-link" target="_blank">chatGPT</a></li>
+          <li><a href="lightly.teamcode.com" class="jj-list-link" target="_blank">Lightly</a></li>
+          <li><a href="https://leetcode.cn/" class="jj-list-link" target="_blank">LeetCode</a></li>
+          <li><a href="https://www.nowcoder.com/" class="jj-list-link" target="_blank">牛客</a></li>
+          <li><a href="https://www.luogu.com.cn/" class="jj-list-link" target="_blank">洛谷</a></li>
+          <li><a href="https://www.hello-algo.com/" class="jj-list-link" target="_blank">Hello 算法</a></li>
+          <li><a href="https://www.runoob.com/" class="jj-list-link" target="_blank">菜鸟教程</a></li>
+          <li><a href="https://www.w3school.com.cn/" class="jj-list-link" target="_blank">w3school</a></li>
         </ul>
       </div>
       <div class="jj-list">
-        <div class="jj-list-tit">皮 · Pi</div>
+        <div class="jj-list-tit">实用工具</div>
         <ul class="jj-list-con">
-          <li><a href="https://ke.qq.com/" class="jj-list-link" target="_blank">腾讯课堂</a></li>
-          <li><a href="https://study.163.com/" class="jj-list-link" target="_blank">网易云课堂</a></li>
-          <li><a href="https://www.imooc.com/" class="jj-list-link" target="_blank">慕课网</a></li>
-          <li><a href="https://www.bilibili.com/" class="jj-list-link" target="_blank">哔哩哔哩</a></li>
-          <li><a href="https://www.iqiyi.com/" class="jj-list-link" target="_blank">爱奇艺</a></li>
-          <li><a href="https://v.qq.com/" class="jj-list-link" target="_blank">腾讯视频</a></li>
-          <li><a href="https://www.youku.com/" class="jj-list-link" target="_blank">优酷</a></li>
-          <li><a href="http://cpc.people.com.cn/" class="jj-list-link" target="_blank">1024</a></li>
-          <li><a href="http://www.zimuzu.tv/" class="jj-list-link" target="_blank">人人影视</a></li>
+          <li><a href="https://www.zoomeye.org/" class="jj-list-link" target="_blank">ZoomEye</a></li>
+          <li><a href="https://dnsdblookup.com/" class="jj-list-link" target="_blank">IP查询</a></li>
+          <li><a href="https://www.tiobe.com/tiobe-index/" class="jj-list-link" target="_blank">TIOBE排行</a></li>
+          <li><a href="https://cupfox.app/" class="jj-list-link" target="_blank">茶杯狐</a></li>
+          <li><a href="https://cilitiantang.me/sitetag/magnet-link" class="jj-list-link" target="_blank">磁力天堂</a></li>
+          <li><a href="http://alist.xiaoya.pro/" class="jj-list-link" target="_blank">小雅</a></li>
+          <li><a href="https://api.aa1.cn/" class="jj-list-link" target="_blank">免费API</a></li>
+          <li><a href="http://cxysite.com/" class="jj-list-link" target="_blank">程序员导航</a></li>
+          <li><a href="http://baozangku.ysepan.com/" class="jj-list-link" target="_blank">哆啦A梦</a></li>
         
         </ul>
       </div>
       <div class="jj-list">
-        <div class="jj-list-tit">笑 · Xiao</div>
+        <div class="jj-list-tit">社区论坛</div>
         <ul class="jj-list-con">
-          <li><a href="https://www.36kr.com/" class="jj-list-link" target="_blank">36氪</a></li>
-          <li><a href="https://www.huxiu.com/" class="jj-list-link" target="_blank">虎嗅</a></li>
-          <li><a href="https://www.toutiao.com/" class="jj-list-link" target="_blank">今日头条</a></li>	
-          <li><a href="https://www.163.com/" class="jj-list-link" target="_blank">网易</a></li>						
-          <li><a href="https://sspai.com/" class="jj-list-link" target="_blank">少数派</a></li>
-          <li><a href="http://ac.scmor.com/" class="jj-list-link" target="_blank">谷歌镜像</a></li>
-          <li><a href="http://crud.budong.me/" class="jj-list-link" target="_blank">小仙女博客</a></li>
-          <li><a href="https://coding.net/" class="jj-list-link" target="_blank">Coding</a></li>
-          <li><a href="https://www.coolist.net/" class="jj-list-link" target="_blank">酷软清单</a></li>
+          <li><a href="https://github.com/" class="jj-list-link" target="_blank">Github</a></li>
+          <li><a href="https://gitee.com/" class="jj-list-link" target="_blank">Gitee</a></li>
+          <li><a href="https://linux.cn/" class="jj-list-link" target="_blank">Linux中国</a></li>	
+          <li><a href="https://www.cnblogs.com/" class="jj-list-link" target="_blank">博客园</a></li>						
+          <li><a href="https://www.csdn.net/" class="jj-list-link" target="_blank">CSDN</a></li>
+          <li><a href="https://juejin.cn/" class="jj-list-link" target="_blank">稀土掘金</a></li>
+          <li><a href="https://www.oschina.net/" class="jj-list-link" target="_blank">开源中国</a></li>
+          <li><a href="https://forum.ubuntu.com.cn/" class="jj-list-link" target="_blank">Ubuntu中文</a></li>
+          <li><a href="https://stackoverflow.com/" class="jj-list-link" target="_blank">StackOverflow</a></li>
         </ul>
       </div>
       <div class="jj-list">
-        <div class="jj-list-tit">嘻 · Xi</div>
+        <div class="jj-list-tit">NEPU 快速访问</div>
         <ul class="jj-list-con">
-          <li><a href="https://map.baidu.com/" class="jj-list-link" target="_blank">百度地图</a></li>
-          <li><a href="http://www.google.cn/maps" class="jj-list-link" target="_blank">谷歌地图</a></li>
-          <li><a href="https://www.amap.com/" class="jj-list-link" target="_blank">高德地图</a></li>
-          <li><a href="https://sm.ms/" class="jj-list-link" target="_blank">SM图床</a></li>
-          <li><a href="https://tool.lu/" class="jj-list-link" target="_blank">程序员工具</a></li>
-          <li><a href="http://www.alloyteam.com/nav/" class="jj-list-link" target="_blank">前端工具</a></li>
-          <li><a href="http://www.99baiduyun.com/" class="jj-list-link" target="_blank">网盘搜索</a></li>
-          <li><a href="https://cli.im/" class="jj-list-link" target="_blank">二维码</a></li>
-          <li><a href="http://www.qinms.com/webapp/barcode/index.aspx" class="jj-list-link" target="_blank">条形码</a></li>
-        
+          <li><a href="http://www.nepu.edu.cn/" class="jj-list-link" target="_blank">学校官网</a></li>
+          <li><a href="http://jwc.nepu.edu.cn/" class="jj-list-link" target="_blank">教务处</a></li>
+          <li><a href="http://jsjy.nepu.edu.cn/" class="jj-list-link" target="_blank">计算机院</a></li>
+          <li><a href="http://tsg.nepu.edu.cn/index.jsp" class="jj-list-link" target="_blank">图书馆</a></li>
+          <li><a href="http://nepu.fanya.chaoxing.com/portal" class="jj-list-link" target="_blank">学习通</a></li>
+          <li><a href="https://www.zhihuishu.com/" class="jj-list-link" target="_blank">智慧树</a></li>
+          <li><a href="https://pointers.cn/" class="jj-list-link" target="_blank">指针官网</a></li>
+          <li><a href="http://39.103.188.28/" class="jj-list-link" target="_blank">指针OJ</a></li>
+          <li><a href="https://www.dqlib.net/" class="jj-list-link" target="_blank">市图书馆</a></li>    
         </ul>
       </div>
       <div class="jj-list">
-        <div class="jj-list-tit">嘻 · Xi</div>
+        <div class="jj-list-tit">推荐访问</div>
         <ul class="jj-list-con">
           
-          <li><a href="http://www.dytt8.net/" class="jj-list-link" target="_blank">电影天堂</a></li>
-          <li><a href="https://zhuanlan.zhihu.com/p/36456284" class="jj-list-link" target="_blank">图片素材</a></li>
-          <li><a href="https://www.portablesoft.org/" class="jj-list-link" target="_blank">效率工具</a></li>
-          <li><a href="https://www.taobao.com/" class="jj-list-link" target="_blank">淘宝</a></li>
-          <li><a href="https://www.jd.com/" class="jj-list-link" target="_blank">京东</a></li>
-          <li><a href="https://www.suning.com/" class="jj-list-link" target="_blank">苏宁</a></li>
-          <li><a href="https://www.smzdm.com/" class="jj-list-link" target="_blank">什么值得买</a></li>
-          <li><a href="http://www.zealer.com/" class="jj-list-link" target="_blank">Zealer</a></li>
-          <li><a href="http://www.manmanbuy.com/" class="jj-list-link" target="_blank">慢慢买</a></li>
-        
-        
+          <li><a href="https://wch666.com/" class="jj-list-link" target="_blank">心月云</a></li>
+          <li><a href="https://www.wwru.cn/" class="jj-list-link" target="_blank">Mx's Blog</a></li>
+          <li><a href="https://zhengyujie.github.io/" class="jj-list-link" target="_blank">浅笑の博客</a></li>
+          <li><a href="https://bbs.elecfans.com/" class="jj-list-link" target="_blank">电子发烧友</a></li>
+          <li><a href="https://www.china-emu.cn/" class="jj-list-link" target="_blank">动车组</a></li>
+          <li><a href="https://www.mcmod.cn/" class="jj-list-link" target="_blank">MC百科</a></li>
+          <li><a href="http://www.wikisky.org/" class="jj-list-link" target="_blank">看星星</a></li>
+          <li><a href="http://bilibili.com/" class="jj-list-link" target="_blank">bilibili</a></li>
+          <li><a href="https://weibo.com/" class="jj-list-link" target="_blank">微博</a></li>       
         </ul>
       </div>
     </div>
@@ -163,11 +169,8 @@
   </div>
 </div>
 <footer class="inner-center footer">
-  <p>
-   <a href="https://github.com/TopVitamin/static-nav" target="_blank"> <img src="./static/css/img/github.png" alt="" height="20" width="20"></a>
-  </p>
-  <p style="margin-top:8px;"> <a href="http://pm.budong.me/" style="color:#8C8C8C;" target="_blank">Copyright © 2019 Hosted by 只言片语</a></p>
- 
+  <p style="margin-top:8px;"> <a href="https://github.com/TopVitamin/static-nav" style="color:#dcf2ff;" target="_blank">Powered by "只言片语，可寻万物"导航</a></p>
+  <p style="margin-top:8px;"> <a href="https://blog.timestarry.asia/" style="color:#dcf2ff;" target="_blank">Copyright 2023 timeStarry</a></p>
 </footer>
 <script src="./static/js/jquery.min.js"></script>
 <script src="./static/js/keyword.js"></script>

@@ -25,7 +25,6 @@ a {
 html, body {
     background: #fff;
     height: 100%;
-
 }
 
 
@@ -58,7 +57,7 @@ textarea {
 .footer {
     height: 60px;
     text-align: center;
-    margin-top: -60px; 
+    margin-top: -70px; 
     /* position: relative;
     margin-top: -100px; 
     clear:both; */
@@ -87,21 +86,22 @@ textarea {
 
 /* 搜索框 start */
 .search-section {
-    margin-top: 14px;
+    margin-top: 20px;
     margin-bottom: 40px;
-}
-.search-section {
     position: relative;
     display: flex;
-}
-.search-left {
+    }
+    
+    .search-left {
     display: flex;
     width: 877px;
     height: 54px;
-    line-height: 20px;
-    border: 1px solid rgba(217, 217, 217, 0.96);
-}
-.search-logo {
+    line-height: 0px;
+    border: 1px solid #6fc2ee;
+    border-radius: 30px;
+    }
+    
+    .search-logo {
     width: 40px;
     align-items: center;
     justify-content: center;
@@ -115,8 +115,9 @@ textarea {
     -khtml-opacity: 0.2;
     opacity: 0.2;
     cursor: pointer;
-}
-.search-logo:hover {
+    }
+    
+    .search-logo:hover {
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
@@ -125,8 +126,9 @@ textarea {
     -moz-opacity: 1;
     -khtml-opacity: 1;
     opacity: 1;
-}
-.search-methods {
+    }
+    
+    .search-methods {
     display: none;
     position: absolute;
     left: 0;
@@ -134,8 +136,9 @@ textarea {
     width: 155px;
     border: 1px solid rgba(217, 217, 217, 0.96);
     background-color: #fff;
-}
-.search-methods li {
+    }
+    
+    .search-methods li {
     padding-left: 39px;
     background: url("./img/scgoogle.png") 10px no-repeat;
     overflow: hidden;
@@ -143,31 +146,37 @@ textarea {
     line-height: 34px;
     color: #545454;
     cursor: pointer;
-}
-.search-logo.baidu, li.baidu {
+    }
+    
+    .search-logo.baidu, li.baidu {
     background-image: url("./img/scbaidu.png");
-}
-.search-logo.bing, li.bing {
+    }
+    
+    .search-logo.bing, li.bing {
     background-image: url("./img/scbing.png");
-}
-.search-logo.sogou, li.sogou {
+    }
+    
+    .search-logo.sogou, li.sogou {
     background-image: url("./img/scsogou.png");
-}
-.search-logo.wangpan, li.wangpan {
+    }
+    
+    .search-logo.wangpan, li.wangpan {
     background-image: url("./img/scwangpan.png");
-}
-.search-logo.so, li.so {
+    }
+    
+    .search-logo.so, li.so {
     background-image: url("./img/scso.png");
-}
-.search-logo.google, li.google {
+    }
+    
+    .search-logo.google, li.google {
     background-image: url("./img/scgoogle.png");
-}
-
-.search-methods .search-item:hover {
+    }
+    
+    .search-methods .search-item:hover {
     background-color: #f0f0f0;
-}
-
-.search-result {
+    }
+    
+    .search-result {
     display: none;
     position: absolute;
     width: 837px;
@@ -175,6 +184,7 @@ textarea {
     left: 40px;
     border: 1px solid rgba(187, 187, 187, 1);
     background-color: #fff;
+    border-radius: 30px;
 }
 .result-item {
     height: 34px;
@@ -200,6 +210,7 @@ textarea {
     border: 0;
     font-size: 16px;
     padding-left: 15px;
+    border-radius: 30px;
 }
 /* .input-wrap .search-input:focus{
 	border-style:solid;
@@ -227,7 +238,7 @@ textarea {
     height: 54px;
     line-height: 26px;
     /* background: url("./img/search.png") #1890ff 48px center no-repeat; */
-    background-color: #1890FF;
+    background-color: #6fc2ee;
     /* background-image: url("./img/search.png"); 
     background-size: 48px; */
     background-repeat: no-repeat;
@@ -241,7 +252,8 @@ textarea {
     font-family: Roboto;
     border: 1px solid #1890ff;
     cursor: pointer;
-    background: linear-gradient(90deg,#1890FF,#455bfb);
+    background: linear-gradient(90deg,#6fc2ee,#7989ff);
+    border-radius: 30px;
 }
 
 /* 搜索框 end */
@@ -259,7 +271,7 @@ textarea {
 .jj-list {
     width: 33.33%;
     float: left;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     padding-right: 16px;
 }
 .jj-list:nth-of-type(3n) {

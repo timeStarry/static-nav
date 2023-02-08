@@ -1,5 +1,11 @@
-# 只言片语 -- 静态导航主页
+# 个人静态导航页
 
-采用HTML+CSS+JQ开发的最简单的静态页面，搭配github pages或者是coding pages食用效果最佳！
+我的网页知识几乎为零，很高兴看到一个简介漂亮的项目可供复刻。
 
-JS放在keyword.js中，HTML+CSS太过简单，需要者自行修改即可！
+本导航页基于[TopVitamin/static-nav]([TopVitamin/static-nav: 静态导航页面 (github.com)](https://github.com/TopVitamin/static-nav))改动而来，部分改动说明如下：
+
+- 修改标题
+
+- 修改搜索框圆角
+- 添加背景图
+- 自定义快捷标签
